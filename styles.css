@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap");
+
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    @layer base {
+      :root {
+        --background: 0 0% 100%;
+        --foreground: 240 10% 3.9%;
+        --primary: 142 76% 36%;
+        --primary-foreground: 355.7 100% 97.3%;
+        --radius: 0.75rem;
+      }
+    }
+
+    body {
+      @apply bg-stone-50 text-stone-900 antialiased;
+    }
+
+    h1, h2, h3, h4 {
+      @apply font-serif;
+    }
+
+    .glass-card {
+      @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
+    }
+
+    /* Custom scrollbar for a premium feel */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      @apply bg-stone-100;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      @apply bg-emerald-900/20 rounded-full hover:bg-emerald-900/40 transition-colors;
+    }
