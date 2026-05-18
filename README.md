@@ -1,6 +1,6 @@
-# Project
+# Kerstkringloop
 
-This is the existing Vite + React + TypeScript project. Repository initialized locally with an initial commit.
+A Vite + React + TypeScript project. Repository initialized locally with an initial commit.
 
 Quick start
 
